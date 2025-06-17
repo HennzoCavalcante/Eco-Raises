@@ -337,3 +337,54 @@ header img {
     background-color: var(--verde-Eco-Raíses);
 }
 
+/* ---------------footer----------------- */
+
+footer {
+    height: 250px;
+    background-image: url(./img/parallax\ footer.svg);
+}
+
+footer img {
+    height: 200px;
+
+    display: flex;
+    align-self: center;
+}
+
+footer .container-grid {
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.redes-sociais p {
+    color: var(--branco);
+
+    font-family: "Lemon milk", light;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.icones-redes {
+    width: 240px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.icones-redes svg {
+    height: 80px;
+    width: 50px;
+}
+
+.icones-redes a {
+    color: var(--branco);
+}
+
+.icones-redes a:hover {
+    color: var(--vermelho-Eco-raíses);
+}
+
