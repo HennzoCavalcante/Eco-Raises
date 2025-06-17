@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Lemon milk";
+    src: url(./font/lemon_milk/);
+}
+
+:root {
+    --branco: #ffffff;
+    --preto: #000000;
+    --verde-Eco-Raíses: #008024;
+    --vermelho-Eco-raíses: #800000;
+    --fundo-site: #a1a1a1;
+    --contato: #c3c3c3;
+}
+
+.container-grid {
+    width: 80vw;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: var(--fundo-site);
+}
+
+.titulo {
+    display: flex;
+    font-family: "Lemon milk", bold;
+    font-weight: 600px;
+    font-size: 35px;
+}
+
+/* -------------Header----------- */
+
+.banner {
+    background-image: url(./img/plano\ de\ fundo\ da\ logo.png);
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-position: 0px -10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-size: 100%;
+}
+
+header {
+    height: 165px;
+}
+
+header .container-grid {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    width: 234px;
+    position: relative;
+    top: 35px;
+    left: 50px;
+}
+
+.menu {
+    max-width: 700px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a {
+    font-size: 20px;
+    color: var(--preto);
+    font-family: "Lemon milk";
+
+    text-decoration: underline transparent;
+    text-decoration-thickness: 2px;
+
+    transition: text-decoration 500ms ease;
+}
+
+.menu a:hover {
+    text-decoration-color: var(--verde-Eco-Raíses);
+}
