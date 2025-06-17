@@ -205,3 +205,135 @@ header img {
 #serviços .card:hover h3 {
     color: var(--verde-Eco-Raíses);
 }
+
+/* ------------------Contato---------------- */
+
+#contato {
+    text-align: center;
+    padding-bottom: 100px;
+    margin-top: 100px;
+}
+
+#contato .titulo {
+    justify-content: center;
+    margin-bottom: 55px;
+    color: var(--verde-Eco-Raíses);
+}
+
+#contato h2 {
+    margin-left: 5px;
+}
+
+#contato form {
+    max-width: 980px;
+    width: 90%;
+
+    margin: 0 auto;
+    padding: 60px 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border: solid 3px var(--vermelho-Eco-raíses);
+    border-radius: 40px;
+    background-color: var(--vermelho-Eco-raíses);
+
+    color: var(--branco);
+    font-family: "Lemon milk", light;
+    font-size: 17px;
+}
+
+.campo {
+    width: 60%;
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-bottom: 50px;
+}
+
+.campo-descricao {
+    width: 60%;
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-bottom: 50px;
+}
+
+.campo input {
+    height: 40px;
+
+    color: var(--branco);
+    background-color: #550000;
+
+    border: none;
+    border-radius: 4px;
+
+    text-indent: 10px;
+    outline: none;
+}
+
+
+.campo-descricao textarea {
+    color: var(--branco);
+    background-color: #550000;
+
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    outline: none;
+
+    resize: none;
+}
+
+.campo label,
+.campo-descricao label {
+    margin-bottom: 15px;
+}
+
+.campo input,
+.campo-descricao textarea {
+    font-family: "Lemon milk", light;
+    font-size: 17px;
+}
+
+.campo input::placeholder,
+.campo-descricao textarea::placeholder {
+    color: #d4d4d4;
+}
+
+.campo input:focus,
+.campo-descricao textarea:focus {
+    outline: 2px solid var(--verde-Eco-Raíses);
+}
+
+#contato form button {
+    height: 40px;
+    width: 60%;
+
+    background-color: #550000;
+    color: var(--branco);
+
+    border: none;
+    border-radius: 4px;
+
+    font-size: 17px;
+    font-family: "Lemon milk", bold;
+    font-weight: 700;
+
+    text-transform: uppercase;
+    cursor: pointer;
+
+    transition: background-color 500ms;
+}
+
+#contato form button:hover {
+    background-color: var(--verde-Eco-Raíses);
+}
+
